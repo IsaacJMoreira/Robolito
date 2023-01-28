@@ -12,7 +12,7 @@ https://shopee.com.br/Kit-Chassi-Carro-Robotico-2-Motores-Inteligente-Smart-PARA
 
 A biblioteca abstrai todo o funcionamento do hardware em apenas 13 funções intuitivas:
 
-#  void Iniciar();//inicia todos os pinos usados para controlar o robolito;
+/ void Iniciar();//inicia todos os pinos usados para controlar o robolito;
 
 #  void LigaLuz();//Liga a luzinha amarela 
   #  void DesligaLuz();//Desliga a luzinha da placa
