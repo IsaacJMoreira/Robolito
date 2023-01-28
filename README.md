@@ -12,25 +12,25 @@ https://shopee.com.br/Kit-Chassi-Carro-Robotico-2-Motores-Inteligente-Smart-PARA
 
 A biblioteca abstrai todo o funcionamento do hardware em apenas 13 funções intuitivas:
 
-  ## void Iniciar();//inicia todos os pinos usados para controlar o robolito;
+  # void Iniciar();//inicia todos os pinos usados para controlar o robolito;
 
-  ## void LigaLuz();//Liga a luzinha amarela 
-  void DesligaLuz();//Desliga a luzinha da placa
+  # void LigaLuz();//Liga a luzinha amarela 
+  # void DesligaLuz();//Desliga a luzinha da placa
   
-  void LigaMotorEsquerdo(bool direcao, int velocidade);//Liga o motor esquerdo, na direção determinada pelo 
+  # void LigaMotorEsquerdo(bool direcao, int velocidade);//Liga o motor esquerdo, na direção determinada pelo 
                                                       //usuário e na velocidade determinada pelo usuário
-  void DesligaMotorEsquerdo();//Desliga o motor esquerdo. 
+  # void DesligaMotorEsquerdo();//Desliga o motor esquerdo. 
   
-  void LigaMotorDireito(bool direcao, int velocidade); //Liga o motor direito, na direção determinada pelo 
-                                                       //usuário e na velocidade determinada pelo usuário
-  void DesligaMotorDireito();//Desliga o motor direito.
+  # void LigaMotorDireito(bool direcao, int velocidade); //Liga o motor direito, na direção determinada pelo 
+  #                                                     //usuário e na velocidade determinada pelo usuário
+  # void DesligaMotorDireito();//Desliga o motor direito.
 
-  void Espera(float tempo);//Espera quantos segundo o usuário mandar
+  #void Espera(float tempo);//Espera quantos segundo o usuário mandar
 
-  void GiraACabeca(float angulo);//Move a cabeça do robolito por um determinado ângulo.
-  void LevantaACabeca(float angulo);
+  #void GiraACabeca(float angulo);//Move a cabeça do robolito por um determinado ângulo.
+  #void LevantaACabeca(float angulo);
 
-  long MedeDistancia();//Mede a distância entre o sensor do Robolito e retorna o valor em centímetros
+  # long MedeDistancia();//Mede a distância entre o sensor do Robolito e retorna o valor em centímetros
 
-  int OlhoDireitoEnxerga();
-  int OlhoEsquerdoEnxerga();
+  # int OlhoDireitoEnxerga();//Retorna Leitura do sensor IR direito
+  # int OlhoEsquerdoEnxerga();//Retorna Leitura do sensor IR esquerdo
