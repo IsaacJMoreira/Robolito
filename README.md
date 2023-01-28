@@ -10,7 +10,8 @@ infravermelho.
 O kit é bastante acessível, como o desse link:
 https://shopee.com.br/Kit-Chassi-Carro-Robotico-2-Motores-Inteligente-Smart-PARA-Arduino-UNO-i.345633532.14916840381?sp_atk=04d5cd0c-cef9-4319-bf81-8c8e873a2ac2&xptdk=04d5cd0c-cef9-4319-bf81-8c8e873a2ac2
 
-A biblioteca abstrai todo o funcionamento do hardware em apenas 13 funções intuitivas:
+A biblioteca abstrai todo o funcionamento do hardware em apenas 13 funções intuitivas.
+Todas as funções retornam informações via monitor serial com um baud rate de 115200.
 
     void Iniciar();//inicia todos os pinos usados para controlar o robolito;
 
