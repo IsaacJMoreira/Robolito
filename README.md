@@ -15,7 +15,7 @@ A biblioteca abstrai todo o funcionamento do hardware em apenas 13 funções int
             void Iniciar();//inicia todos os pinos usados para controlar o robolito;
 
             void LigaLuz();//Liga a luzinha amarela 
-  void DesligaLuz();//Desliga a luzinha da placa
+   void DesligaLuz();//Desliga a luzinha da placa
   
   #  void LigaMotorEsquerdo(bool direcao, int velocidade);//Liga o motor esquerdo, na direção determinada pelo usuário e na velocidade determinada pelo usuário
                                                       
