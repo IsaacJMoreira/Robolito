@@ -7,7 +7,7 @@ Servo ServoDaCabecaY;
 void Robolito::Iniciar(){
 
   //Define todos os pinos usados no Robolito
-  Serial.begin(115200);//Usado em todo o código para passar informações direto para o computador
+  Serial.begin(115200);//Usado em todo o código para passar informações diretopara o computador
   delay(10);
   Serial.println("*****************************************************************");
   Serial.println("*                                                               *");
