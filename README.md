@@ -1,10 +1,4 @@
- "  ####    ###   ####    ###   #       ###   #####   ###   #"
- "  #   #  #   #  #   #  #   #  #        #      #    #   #  #"
-   #####  #   #  #   #  #   #  #        #      #    #   #  #  
-   ##     #   #  ####   #   #  #        #      #    #   #  #
-   # #    #   #  #   #  #   #  #        #      #    #   #  #
-   #  #   #   #  #   #  #   #  #        #      #    #   #        
-   #   #   ###   ####    ###   #####   ###     #     ###   #  
+  # Biblioteca Robolito
 
 Pequena biblioteca que fornece uma camada de abstração de hardware (HAL) para 
 facilitar o ensino de programação para crianças a partir de 8 anos de idade.
