@@ -67,6 +67,7 @@ void Robolito::Iniciar(){
     Serial.print(".");
     delay(30);
      }
+   Robolito::LevantaACabeca(90);
    Serial.println();
    Serial.println("Pronto!");
    Robolito::DesligaLuz();
