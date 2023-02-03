@@ -67,8 +67,9 @@ void Robolito::Iniciar(){
     Serial.print(".");
     delay(30);
      }
-   Robolito::LevantaACabeca(90);
+   
    Serial.println();
+   Robolito::LevantaACabeca(90);
    Serial.println("Pronto!");
    Robolito::DesligaLuz();
   
@@ -148,7 +149,7 @@ void Robolito::LigaMotorEsquerdo(bool direcao, int velocidade){   //especificame
   }else{
     digitalWrite(MotorEsquerdoP0, LOW);
     digitalWrite(MotorEsquerdoP1, HIGH);
-    Serial.print("para TRAS com"); 
+    Serial.print("para TRAS com "); 
     }
 
     analogWrite(MotorEsquerdoPWM, map(velocidade, 0, 100, 0, 255));
